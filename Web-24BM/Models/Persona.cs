@@ -19,5 +19,10 @@ namespace Web_24BM.Models
         [DataType(DataType.Date)]
         public DateTime FechaNacimiento { get; set; }
 
+        [StringLength(13)]
+        public string RFC { get; set; }
+        [StringLength(50)] 
+        public string AreaTrabajo { get; set; }
+
     }
 }
